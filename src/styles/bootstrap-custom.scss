@@ -1,4 +1,5 @@
-
+@import "./variables.scss";
+@import '~@progress/kendo-theme-default/scss/all';
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
@@ -8,13 +9,12 @@
 @import "~bootstrap/scss/card";
 
 @import "~bootstrap/scss/grid";
-@import "./variables.scss";
-@import '~@progress/kendo-theme-default/scss/all';
+
 
 
 $grid-columns: 12;
-$grid-gutter-width: 48px;
-$grid-column-width: 48px;
+$grid-gutter-width: 3em;
+$grid-column-width: 3em;
 
 
 
@@ -36,22 +36,45 @@ $container-max-widths: (
 .card {
   background-color: $grid-alt-bg;
   border-color: $grid-header-bg;
+  &.card-radius-12{
+    border-radius: 12px;
+  }
 }
-
+.app-header{
+  background-color: $gray-850;
+  .logo {
+    color:$white;
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+  .k-menu:not(.k-context-menu) > .k-item {
+    color:$white;
+  }
+}
 button {
   color:$grid-header-bg; 
+  border-radius: 5px !important;
+  background-color: #ffffff;
   &.blue {
     background-color:$grid-header-bg;
     color: $grid-bg;
+    background-image: none;
   }
 }
 
 h3, h2, h1, h4, h5, h6 {
   color: $grid-header-bg;
+  font-weight: 500;
 }
 
 .k-widget {
   font-size: 14px !important;
 }
-
+.k-grid-header{
+  padding: 3px;
+}
+/*
+   a. Define All usefulld dependencies
+   b. 
+*/
 

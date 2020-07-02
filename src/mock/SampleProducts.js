@@ -2,6 +2,8 @@ export const sampleProducts = [
     {
         "ProductID": 1,
         "ProductName": "Chai",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 1,
         "CategoryID": 1,
         "QuantityPerUnit": "10 boxes x 20 bags",
@@ -15,11 +17,13 @@ export const sampleProducts = [
             "CategoryName": "Beverages",
             "Description": "Soft drinks, coffees, teas, beers, and ales"
         },
-        "FirstOrderedOn": new Date(1996, 8, 20)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 2,
         "ProductName": "Chang",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 1,
         "CategoryID": 1,
         "QuantityPerUnit": "24 - 12 oz bottles",
@@ -33,11 +37,13 @@ export const sampleProducts = [
             "CategoryName": "Beverages",
             "Description": "Soft drinks, coffees, teas, beers, and ales"
         },
-        "FirstOrderedOn": new Date(1996, 7, 12)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 3,
         "ProductName": "Aniseed Syrup",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 1,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 550 ml bottles",
@@ -51,11 +57,13 @@ export const sampleProducts = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 8, 26)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 4,
         "ProductName": "Chef Anton's Cajun Seasoning",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 2,
         "CategoryID": 2,
         "QuantityPerUnit": "48 - 6 oz jars",
@@ -69,11 +77,13 @@ export const sampleProducts = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 9, 19)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 5,
         "ProductName": "Chef Anton's Gumbo Mix",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 2,
         "CategoryID": 2,
         "QuantityPerUnit": "36 boxes",
@@ -87,11 +97,13 @@ export const sampleProducts = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 7, 17)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 6,
         "ProductName": "Grandma's Boysenberry Spread",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 3,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 8 oz jars",
@@ -105,11 +117,13 @@ export const sampleProducts = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 9, 19)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 7,
         "ProductName": "Uncle Bob's Organic Dried Pears",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 3,
         "CategoryID": 7,
         "QuantityPerUnit": "12 - 1 lb pkgs.",
@@ -123,11 +137,13 @@ export const sampleProducts = [
             "CategoryName": "Produce",
             "Description": "Dried fruit and bean curd"
         },
-        "FirstOrderedOn": new Date(1996, 7, 22)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 8,
         "ProductName": "Northwoods Cranberry Sauce",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 3,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 12 oz jars",
@@ -141,11 +157,13 @@ export const sampleProducts = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 11, 1)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 9,
         "ProductName": "Mishi Kobe Niku",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 4,
         "CategoryID": 6,
         "QuantityPerUnit": "18 - 500 g pkgs.",
@@ -159,11 +177,13 @@ export const sampleProducts = [
             "CategoryName": "Meat/Poultry",
             "Description": "Prepared meats"
         },
-        "FirstOrderedOn": new Date(1997, 1, 21)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 10,
         "ProductName": "Ikura",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 4,
         "CategoryID": 8,
         "QuantityPerUnit": "12 - 200 ml jars",
@@ -177,11 +197,13 @@ export const sampleProducts = [
             "CategoryName": "Seafood",
             "Description": "Seaweed and fish"
         },
-        "FirstOrderedOn": new Date(1996, 8, 5)
+        "FirstOrderedOn": '01/01/2021'
     },
     {
         "ProductID": 11,
         "ProductName": "Ikura",
+        "CallReason": "Web Enrollment",
+        "Purpose": "Information",
         "SupplierID": 4,
         "CategoryID": 8,
         "QuantityPerUnit": "12 - 200 ml jars",
@@ -195,6 +217,6 @@ export const sampleProducts = [
             "CategoryName": "Seafood",
             "Description": "Seaweed and fish"
         },
-        "FirstOrderedOn": new Date(1996, 8, 5)
+        "FirstOrderedOn": '01/01/2021'
     }
 ];

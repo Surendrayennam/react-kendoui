@@ -1,5 +1,5 @@
 import React from 'react';
-//import PatientManualSearch from './PatientManualSearch';
+import PatientManualSearch from '../../components/PatientForm';
 import InBound from './InBound';
 import WIPComponent from './WorkInProgress';
 import { sampleProducts } from '../../mock/SampleProducts';
@@ -21,6 +21,11 @@ const AgentWorkQueue = (props) => {
                 </div>
                 <div className="col-6">
                      <WIPComponent data={sampleProducts} />
+                </div>
+            </div>
+            <div className='row my-4'>
+                <div className="col-6 offset-3">
+                    <PatientManualSearch />
                 </div>
             </div>     
         </div>
